@@ -1,9 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import { shallow } from "enzyme";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+import { findByAttr } from "./tests/testUtils";
+import App from "./App";
+
+test("should have instructions text on how to get started", () => {
+  const wrapper = shallow(<App />);
+  const instructions = findByAttr(wrapper, "instructions");
+  expect(instructions.text()).toBe("Edit src/App.js and save to reload.");
+});
+
+test("should have href prop for the learn react component", () => {
+  const wrapper = shallow(<App />);
+  const anchorelement = findByAttr(wrapper, "learn-react");
+  expect(anchorelement.prop("href")).toBe("https://reactjs.org");
 });
