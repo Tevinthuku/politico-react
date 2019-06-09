@@ -7,7 +7,6 @@ describe("<Greeting />", () =>
     Expect.(
       test("renders gretting component ", () => {
         let result = render(<Greeting />);
-
         result
         |> container
         |> firstChild

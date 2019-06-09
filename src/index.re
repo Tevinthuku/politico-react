@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId(<Greeting />, "root");
+ReactDOMRe.renderToElementWithId(<Routes />, "root");

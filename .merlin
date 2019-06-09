@@ -1,19 +1,35 @@
 ####{BSB GENERATED: NO EDIT
 B lib/bs
 FLG -open PoliticoReact
-FLG -ppx '/home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/bs-platform/lib/bsppx.exe -bs-jsx 3'
-S /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/bs-platform/lib/ocaml
-B /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/bs-platform/lib/ocaml
+FLG -ppx '/Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-platform/lib/bsppx.exe -bs-jsx 3'
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-platform/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-platform/lib/ocaml
 FLG -nostdlib -color always
 FLG -w -30-40+6+7+27+32..39+44+45+101
-S /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/reason-react/lib/ocaml
-B /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/reason-react/lib/ocaml
-S /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/@glennsl/bs-jest/lib/ocaml
-B /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/@glennsl/bs-jest/lib/ocaml
-S /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/bs-react-testing-library/lib/ocaml
-B /home/tevin/Documents/PROJECTS/EXPERIMENTS/REACT/politico-react/node_modules/bs-react-testing-library/lib/ocaml
-S src/__tests__
-B lib/bs/src/__tests__
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/reason-react/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/reason-react/lib/ocaml
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-fetch/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-fetch/lib/ocaml
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/@jsiebern/bs-material-ui/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/@jsiebern/bs-material-ui/lib/ocaml
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/@glennsl/bs-jest/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/@glennsl/bs-jest/lib/ocaml
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-react-testing-library/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-react-testing-library/lib/ocaml
+S /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-dom-testing-library/lib/ocaml
+B /Users/ghost/Documents/tinkerings/politico-react/node_modules/bs-dom-testing-library/lib/ocaml
 S src
 B lib/bs/src
+S src/actions
+B lib/bs/src/actions
+S src/utils
+B lib/bs/src/utils
+S src/containers
+B lib/bs/src/containers
+S src/__tests__
+B lib/bs/src/__tests__
+S src/__tests__/containers
+B lib/bs/src/__tests__/containers
+S src/__tests__/actions
+B lib/bs/src/__tests__/actions
 ####BSB GENERATED: NO EDIT}
