@@ -3,8 +3,8 @@
 
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
-var Greeting$PoliticoReact = require("./Greeting.js");
+var Routes$PoliticoReact = require("./routes.js");
 
-ReactDOMRe.renderToElementWithId(React.createElement(Greeting$PoliticoReact.make, { }), "root");
+ReactDOMRe.renderToElementWithId(React.createElement(Routes$PoliticoReact.make, { }), "root");
 
 /*  Not a pure module */

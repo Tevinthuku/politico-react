@@ -4,11 +4,13 @@
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
-      "dir": "src"
+      "dir": "src/__tests__",
+      "subdirs": ["actions", "containers"],
+      "type": "dev"
     },
     {
-      "dir": "src/__tests__",
-      "type": "dev"
+      "dir": "src",
+      "subdirs": ["containers", "utils", "actions"]
     }
   ],
   "package-specs": [
@@ -19,8 +21,12 @@
   ],
   "suffix": ".js",
   "namespace": true,
-  "bs-dependencies": ["reason-react"],
-  "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-react-testing-library"],
+  "bs-dependencies": ["reason-react", "bs-fetch", "@jsiebern/bs-material-ui"],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-react-testing-library",
+    "bs-dom-testing-library"
+  ],
   "ppx-flags": [],
   "refmt": 3
 }
